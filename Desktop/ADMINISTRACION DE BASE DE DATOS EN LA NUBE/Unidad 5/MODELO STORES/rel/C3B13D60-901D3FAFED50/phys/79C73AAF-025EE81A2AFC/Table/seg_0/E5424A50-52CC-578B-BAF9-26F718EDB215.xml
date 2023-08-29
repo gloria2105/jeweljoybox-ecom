@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRODUCT_SUBCATEGORY" directorySegmentName="seg_0" id="E5424A50-52CC-578B-BAF9-26F718EDB215">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<schemaObject>7AF2401C-54C4-075F-235B-F9DD70F30011</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>946420D7-F5C4-6335-FDAF-B813A5AB99C6</segment>
+<tableSpace>3149BF1E-8F70-D337-7A49-C222A7DD5437</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDPRODUCTCATEGORY" id="A45A1F4B-F09B-E997-53FE-4398767E3F09">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_SUBCATEGORY" id="C824F418-4D9B-4AD7-01C2-C8AFDB4AFB3C">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDPRODUCTSUBCATEGORY" id="D17D4D2B-08C3-33BC-B1B0-B5AD0A445105">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCT_SUBCATEGORY_PK" id="21E7BE3A-F649-1FE7-BCB5-0AB2F4226EF0">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<schemaObject>7AF2401C-54C4-075F-235B-F9DD70F30011</schemaObject>
+<segment>77710407-53A9-0061-288F-5A42CDB144EC</segment>
+<tableSpace>3149BF1E-8F70-D337-7A49-C222A7DD5437</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REL_PRODUCTSUBCATEGORY_PRODUCT_CATEGORY" id="174EF3E5-4401-29C2-6395-7B037DBDA2A9">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:17 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_SUBCATEGORY_PK" id="F0FAE4F8-586D-BF81-D5C5-6523A321A869">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<segment>77710407-53A9-0061-288F-5A42CDB144EC</segment>
+<tableSpace>3149BF1E-8F70-D337-7A49-C222A7DD5437</tableSpace>
+<existingIndex>21E7BE3A-F649-1FE7-BCB5-0AB2F4226EF0</existingIndex>
+<indexSegment>77710407-53A9-0061-288F-5A42CDB144EC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

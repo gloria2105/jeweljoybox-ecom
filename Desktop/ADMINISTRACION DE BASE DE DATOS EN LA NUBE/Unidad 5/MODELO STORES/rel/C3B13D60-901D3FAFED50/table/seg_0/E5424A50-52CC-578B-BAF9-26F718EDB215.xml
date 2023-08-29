@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5424A50-52CC-578B-BAF9-26F718EDB215" schemaObject="7AF2401C-54C4-075F-235B-F9DD70F30011" name="PRODUCT_SUBCATEGORY">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>PRODUCT_SUBCATEGORY</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_SUBCATEGORY" id="C824F418-4D9B-4AD7-01C2-C8AFDB4AFB3C">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>PRODUCT_SUBCATEGORY</sourceObjSchema>
+<sourceObjName>PRODUCT_SUBCATEGORY</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPRODUCTSUBCATEGORY" id="D17D4D2B-08C3-33BC-B1B0-B5AD0A445105">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>PRODUCT_SUBCATEGORY</sourceObjSchema>
+<sourceObjName>IDPRODUCTSUBCATEGORY</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPRODUCTCATEGORY" id="A45A1F4B-F09B-E997-53FE-4398767E3F09">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>PRODUCT_SUBCATEGORY</sourceObjSchema>
+<sourceObjName>IDPRODUCTCATEGORY</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C11F8F8-0B1B-4A0D-BDF5-C37FED332134" referredColumn="2C85D277-7D63-2CC0-93D1-C4A3F00BD252"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0FAE4F8-586D-BF81-D5C5-6523A321A869" name="PRODUCT_SUBCATEGORY_PK">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>PRODUCT_SUBCATEGORY_PK</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D17D4D2B-08C3-33BC-B1B0-B5AD0A445105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21E7BE3A-F649-1FE7-BCB5-0AB2F4226EF0" schemaObject="7AF2401C-54C4-075F-235B-F9DD70F30011" name="PRODUCT_SUBCATEGORY_PK">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>PRODUCT_SUBCATEGORY_PK</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:16 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D17D4D2B-08C3-33BC-B1B0-B5AD0A445105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="174EF3E5-4401-29C2-6395-7B037DBDA2A9" name="REL_PRODUCTSUBCATEGORY_PRODUCT_CATEGORY">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:39:17 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A45A1F4B-F09B-E997-53FE-4398767E3F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

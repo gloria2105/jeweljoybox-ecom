@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="DATA" directorySegmentName="seg_0" id="3149BF1E-8F70-D337-7A49-C222A7DD5437">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>DATA</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:34:50 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E82D3DA-777E-440A-82A7-56E45C50F502" containerWithKeyObject="54DE65F7-B592-9A78-E6FD-D9D768508275" localFKIndex="52C76E1E-F1C4-10F1-86E3-34269BAC2CB3" name="REL_PRODUCT_PRODUCTSUBCATEGORY">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>REL_PRODUCT_PRODUCTSUBCATEGORY</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:38:27 UTC</createdTime>
+<ownerDesignName>MODELO STORES</ownerDesignName>
+<referredTableLongName>STORES.PRODUCT_SUBCATEGORY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5424A50-52CC-578B-BAF9-26F718EDB215</referredTableID>
+<keyObject>F0FAE4F8-586D-BF81-D5C5-6523A321A869</keyObject>
+<referredKeyID>F0FAE4F8-586D-BF81-D5C5-6523A321A869</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IDPRODUCTSUBCATEGORY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
