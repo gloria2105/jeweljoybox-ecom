@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="357625B6-523A-E514-D325-2D2E950982B4" schemaObject="7AF2401C-54C4-075F-235B-F9DD70F30011" name="ORDERS_DETAIL">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>ORDERS_DETAIL</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDERS_DETAIL" id="A09B3A8D-C4CA-D0FA-261E-A2A3C1F45075">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>ID_ORDERS_DETAIL</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ID" id="9C6D4706-6B4D-E863-ED4C-3D31EC08C808">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49EACA6C-98D5-21D7-B16F-31BDAC8632B1" referredColumn="B5347A45-FE63-4516-98C1-003704953F8B"/>
+</associations>
+</Column>
+<Column name="ORDER_PRIORITY" id="B53AFBDE-7AA4-C75A-DC14-09681994F2BC">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>ORDER_PRIORITY</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 BYTE</dataTypeSize>
+<ownDataTypeParameters>26 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="62BC78C6-2F65-D6B9-E07D-FBABD88BEB56">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_PRICE" id="008D03D2-579A-BE67-F657-2B58A0D28742">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>UNIT_PRICE</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIPPING_COST" id="943DB5CB-9B05-D916-DA96-1F5DC8B49248">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>SHIPPING_COST</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_MODE" id="F9F46BD8-F349-48FE-4EC5-9AD56C6391CC">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>SHIP_MODE</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>26 BYTE</dataTypeSize>
+<ownDataTypeParameters>26 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCT" id="4EFA8295-A084-AF0F-B56C-F8555897D606">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>ID_PRODUCT</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECAE51A7-0162-2068-B730-4F09674590A7" referredColumn="D0065838-BC89-EEB5-00AF-F5F66322205F"/>
+</associations>
+</Column>
+<Column name="PRODUCT_BASE_MARGIN" id="A406495D-F1C0-932E-4206-384A5938FCA3">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>PRODUCT_BASE_MARGIN</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFIT" id="1A2F3CFC-AEF7-7655-EC9C-B5FCA20B5679">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>PROFIT</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>19</dataTypeScale>
+<ownDataTypeParameters>,38,19</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY_ORDERED_NEW" id="6D8B904F-3F5C-4335-2388-8D8153114556">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>QUANTITY_ORDERED_NEW</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES" id="CA1A6C65-1786-6283-E787-B9D9137BEF73">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>ORDERS_DETAIL</sourceObjSchema>
+<sourceObjName>SALES</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:28 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A7ADAE7-0D2F-164B-0782-25AD46119D5F" name="ORDERS_DETAIL_PK">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>ORDERS_DETAIL_PK</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:30 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09B3A8D-C4CA-D0FA-261E-A2A3C1F45075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E85FB02-36F2-F77F-F86E-1DB14183CBF0" schemaObject="7AF2401C-54C4-075F-235B-F9DD70F30011" name="ORDERS_DETAIL_PK">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>ORDERS_DETAIL_PK</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:30 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09B3A8D-C4CA-D0FA-261E-A2A3C1F45075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08DA40DD-8E2B-BF35-366F-3A253104124F" name="ORDERS_DETAIL_ORDERS_FK">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:52:20 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C6D4706-6B4D-E863-ED4C-3D31EC08C808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56FAAE8F-5BBE-1581-AFA2-FAE05766EE3C" name="ORDERS_DETAIL_PRODUCTS_FK">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:52:20 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFA8295-A084-AF0F-B56C-F8555897D606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

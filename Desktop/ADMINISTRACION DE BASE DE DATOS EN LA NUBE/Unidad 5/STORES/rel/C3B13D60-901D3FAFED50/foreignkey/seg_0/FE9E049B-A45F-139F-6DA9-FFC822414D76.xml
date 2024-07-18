@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE9E049B-A45F-139F-6DA9-FFC822414D76" containerWithKeyObject="54DE65F7-B592-9A78-E6FD-D9D768508275" localFKIndex="CC2B614D-7184-34AF-29E8-6446EC76877E" name="PRODUCTS_PRODUCT_SUBCATEGORY_FK">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:52:20 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<referredTableLongName>STORES.PRODUCT_SUBCATEGORY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5424A50-52CC-578B-BAF9-26F718EDB215</referredTableID>
+<keyObject>F0FAE4F8-586D-BF81-D5C5-6523A321A869</keyObject>
+<referredKeyID>F0FAE4F8-586D-BF81-D5C5-6523A321A869</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IDPRODUCTSUBCATEGORY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="createdByFKDiscoverer" value="true"/>
+</propertyMap>
+</FKIndexAssociation>

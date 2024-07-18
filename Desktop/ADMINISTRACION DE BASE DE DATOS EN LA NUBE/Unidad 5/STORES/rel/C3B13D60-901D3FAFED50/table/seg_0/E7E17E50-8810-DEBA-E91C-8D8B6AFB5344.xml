@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7E17E50-8810-DEBA-E91C-8D8B6AFB5344" schemaObject="7AF2401C-54C4-075F-235B-F9DD70F30011" name="CUSTOMER">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:42:29 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_NAME" id="D486FE6A-1903-CE7E-CB77-54881D213272">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:42:29 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_SEGMENT" id="5446DD30-EE39-7B5F-CA38-1C6CF04E56F8">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_SEGMENT</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:42:29 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CUSTOMER" id="203C0DB0-7CFE-AB6B-1513-FD9A8C53F87F">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ID_CUSTOMER</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:42:29 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62F8BE55-F721-B33A-DC12-BFDC0F2CC251" name="CUSTOMER_PK">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:42:29 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="203C0DB0-7CFE-AB6B-1513-FD9A8C53F87F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACE9F33D-E537-D852-D20F-7580100CC411" schemaObject="7AF2401C-54C4-075F-235B-F9DD70F30011" name="CUSTOMER_PK">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:42:29 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="203C0DB0-7CFE-AB6B-1513-FD9A8C53F87F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="VW_CUSTOMER_MANAGER_ORDERS" directorySegmentName="seg_0" id="C9597138-F068-CDF0-CFE7-744F778D6C94">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:13:13 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+</TableViewProxyOraclev10g>

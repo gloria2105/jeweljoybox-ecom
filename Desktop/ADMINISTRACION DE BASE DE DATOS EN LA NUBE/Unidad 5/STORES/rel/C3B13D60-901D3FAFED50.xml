@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="STORES" id="C3B13D60-C257-1B82-E43F-901D3FAFED50" mainViewID="A363591E-4534-200C-FE1A-82F0C2E57CC8">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:34:11 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Oracle-Cloud-stores</connName>
+<connUser>STORES</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

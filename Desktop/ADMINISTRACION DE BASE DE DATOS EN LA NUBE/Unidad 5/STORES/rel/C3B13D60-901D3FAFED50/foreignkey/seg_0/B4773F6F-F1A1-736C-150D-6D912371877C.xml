@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4773F6F-F1A1-736C-150D-6D912371877C" containerWithKeyObject="CF11F831-DC5E-A082-69CF-2498CA602751" localFKIndex="59B73550-2C0C-22D2-192B-B509C5BB121B" name="REL_ORDERS_CUSTOMER">
+<sourceConnName>Oracle-Cloud-stores</sourceConnName>
+<sourceObjSchema>STORES</sourceObjSchema>
+<sourceObjName>REL_ORDERS_CUSTOMER</sourceObjName>
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 02:37:17 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<referredTableLongName>STORES.CUSTOMER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7E17E50-8810-DEBA-E91C-8D8B6AFB5344</referredTableID>
+<keyObject>62F8BE55-F721-B33A-DC12-BFDC0F2CC251</keyObject>
+<referredKeyID>62F8BE55-F721-B33A-DC12-BFDC0F2CC251</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CUSTOMER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

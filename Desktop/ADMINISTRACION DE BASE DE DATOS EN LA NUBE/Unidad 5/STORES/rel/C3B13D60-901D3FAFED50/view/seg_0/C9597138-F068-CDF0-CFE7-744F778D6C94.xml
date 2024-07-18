@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="C9597138-F068-CDF0-CFE7-744F778D6C94" name="VW_CUSTOMER_MANAGER_ORDERS">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:13:13 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<ordsAlias>view_1</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    stores.customer.id_customer,
+    stores.customer.customer_name,
+    stores.managers.id_manager,
+    stores.managers.manager_name,
+    stores.orders.order_id,
+    stores.orders.country,
+    stores.orders.region,
+    stores.orders.order_date,
+    stores.orders.ship_date
+FROM
+         stores.customer
+    INNER JOIN stores.orders ON stores.customer.id_customer = stores.orders.id_customer
+    INNER JOIN stores.managers ON stores.managers.id_manager = stores.orders.id_manager]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_customer" id="BD3AC505-6ACB-E774-F878-6279F42EE74F">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (38)</dataType>
+<headerAlias>id_customer</headerAlias>
+<reference>false</reference>
+<referencedColumn>203C0DB0-7CFE-AB6B-1513-FD9A8C53F87F</referencedColumn>
+<table>E7E17E50-8810-DEBA-E91C-8D8B6AFB5344</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="customer_name" id="96E7B701-38A9-1E6B-F7E1-B53576525102">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (4000 BYTE)</dataType>
+<headerAlias>customer_name</headerAlias>
+<reference>false</reference>
+<referencedColumn>D486FE6A-1903-CE7E-CB77-54881D213272</referencedColumn>
+<table>E7E17E50-8810-DEBA-E91C-8D8B6AFB5344</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_manager" id="143A8252-4D87-104A-81B3-664A7252EC20">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (38)</dataType>
+<headerAlias>id_manager</headerAlias>
+<reference>false</reference>
+<referencedColumn>AB0B563C-4FF9-E239-182F-8EAD481F5EB3</referencedColumn>
+<table>36C7C806-D4C6-4E73-E6A2-F3484ECB3916</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="manager_name" id="30E688BA-91C3-4608-41A5-2A5219661B7C">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (4000 BYTE)</dataType>
+<headerAlias>manager_name</headerAlias>
+<reference>false</reference>
+<referencedColumn>B0B0F556-05EF-2855-0160-46946C08459A</referencedColumn>
+<table>36C7C806-D4C6-4E73-E6A2-F3484ECB3916</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="order_id" id="BF9C3085-0542-B6F7-EF92-AED269E08043">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (38)</dataType>
+<headerAlias>order_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>B5347A45-FE63-4516-98C1-003704953F8B</referencedColumn>
+<table>CF11F831-DC5E-A082-69CF-2498CA602751</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="country" id="AB72978B-6732-773D-3401-00FA2B8C2B79">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (4000 BYTE)</dataType>
+<headerAlias>country</headerAlias>
+<reference>false</reference>
+<referencedColumn>71ACB411-7C89-8977-83BB-0DDBA4DAEF41</referencedColumn>
+<table>CF11F831-DC5E-A082-69CF-2498CA602751</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="region" id="A7478535-46C4-A27A-8417-F738B9CE55D5">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (26 BYTE)</dataType>
+<headerAlias>region</headerAlias>
+<reference>false</reference>
+<referencedColumn>B77BD353-B122-3E19-50F1-F9297C4CCAB1</referencedColumn>
+<table>CF11F831-DC5E-A082-69CF-2498CA602751</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="order_date" id="4776E48E-1ADD-A3A2-77C5-379CA82F2596">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>order_date</headerAlias>
+<reference>false</reference>
+<referencedColumn>96D8BCA0-C278-F7BB-FE82-79F9D37F2ABF</referencedColumn>
+<table>CF11F831-DC5E-A082-69CF-2498CA602751</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ship_date" id="E22C32DE-9FE2-6301-4C71-30C0213E2A84">
+<createdBy>Gloria</createdBy>
+<createdTime>2023-08-29 03:20:36 UTC</createdTime>
+<ownerDesignName>STORES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>ship_date</headerAlias>
+<reference>false</reference>
+<referencedColumn>431B04B0-E345-136D-0CF6-BE93D8EC45F5</referencedColumn>
+<table>CF11F831-DC5E-A082-69CF-2498CA602751</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E7E17E50-8810-DEBA-E91C-8D8B6AFB5344">
+<container>true</container>
+<schema>STORES</schema>
+<tableName>CUSTOMER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CF11F831-DC5E-A082-69CF-2498CA602751">
+<container>true</container>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="36C7C806-D4C6-4E73-E6A2-F3484ECB3916">
+<container>true</container>
+<schema>STORES</schema>
+<tableName>MANAGERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="203C0DB0-7CFE-AB6B-1513-FD9A8C53F87F">
+<columnName>ID_CUSTOMER</columnName>
+<schema>STORES</schema>
+<tableName>CUSTOMER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D486FE6A-1903-CE7E-CB77-54881D213272">
+<columnName>CUSTOMER_NAME</columnName>
+<schema>STORES</schema>
+<tableName>CUSTOMER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AB0B563C-4FF9-E239-182F-8EAD481F5EB3">
+<columnName>ID_MANAGER</columnName>
+<schema>STORES</schema>
+<tableName>MANAGERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B0B0F556-05EF-2855-0160-46946C08459A">
+<columnName>MANAGER_NAME</columnName>
+<schema>STORES</schema>
+<tableName>MANAGERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B5347A45-FE63-4516-98C1-003704953F8B">
+<columnName>ORDER_ID</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="71ACB411-7C89-8977-83BB-0DDBA4DAEF41">
+<columnName>COUNTRY</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B77BD353-B122-3E19-50F1-F9297C4CCAB1">
+<columnName>REGION</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="96D8BCA0-C278-F7BB-FE82-79F9D37F2ABF">
+<columnName>ORDER_DATE</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="431B04B0-E345-136D-0CF6-BE93D8EC45F5">
+<columnName>SHIP_DATE</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="87A0667A-E882-935E-F208-3EB10E61FB53">
+<columnName>ID_MANAGER</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4ED86E8C-1CE6-080E-E8FA-BC0D1D393C06">
+<columnName>ID_CUSTOMER</columnName>
+<schema>STORES</schema>
+<tableName>ORDERS</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
