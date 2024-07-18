@@ -1,3 +1,2 @@
-# jeweljoybox-ecom
-
-Ecommerce Equipo 2
+# jeweljoy-ecom
+Ecommerce para el equipo 2
