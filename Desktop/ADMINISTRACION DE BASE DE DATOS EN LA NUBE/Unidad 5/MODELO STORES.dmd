@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO STORES" id="7709D935-8BFA-9C33-833D-F8FD4E3B9980" version="3.5">
-<createdBy>Gloria</createdBy>
-<createdTime>2023-08-29 02:34:04 UTC</createdTime>
-<ownerDesignName>MODELO STORES</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>7709D935-8BFA-9C33-833D-F8FD4E3B9980</designId>
-</OSDM_Design>

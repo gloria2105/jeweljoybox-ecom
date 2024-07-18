@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7C4840FE-8B34-982C-3862-ED1DF0E64437" mainViewID="1D8FF8FC-E0CB-1162-6EC2-E736E045DD9E">
-<createdBy>Gloria</createdBy>
-<createdTime>2023-08-29 02:34:04 UTC</createdTime>
-<ownerDesignName>MODELO STORES</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
